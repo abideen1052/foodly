@@ -44,7 +44,7 @@ class MainScreen extends StatelessWidget {
                       currentIndex: controller.tabIndex,
                       items: [
                         BottomNavigationBarItem(
-                            icon: controller.currentIndex == 0
+                            icon: controller.tabIndex == 0
                                 ? const Icon(AntDesign.appstore1)
                                 : const Icon(AntDesign.appstore_o),
                             label: 'Home'),
@@ -57,7 +57,7 @@ class MainScreen extends StatelessWidget {
                             ),
                             label: 'Cart'),
                         BottomNavigationBarItem(
-                            icon: controller.currentIndex == 0
+                            icon: controller.tabIndex == 0
                                 ? const Icon(FontAwesome.user_circle)
                                 : const Icon(FontAwesome.user_circle_o),
                             label: 'Profile')
