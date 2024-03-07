@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:foodly/constants/constants.dart';
 import 'package:foodly/constants/uidata.dart';
 import 'package:foodly/views/home/widgets/food_widget.dart';
 

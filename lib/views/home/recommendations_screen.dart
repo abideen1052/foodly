@@ -20,6 +20,5 @@ class RecommendationsScreen extends StatelessWidget {
         child: Text('Recommendation'),
       ),
     );
-    ;
   }
 }
